@@ -1,0 +1,72 @@
+body {
+    background: #ffffff;
+    height: 100vh;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* line-height: 1; */
+    /* max-width: 1400px; */
+  }
+  
+  
+  h1 {
+    font-size:96px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight:lighter;
+  }
+  
+  nav {
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:row;
+    /* padding: 20px; */
+  
+  }
+  
+  #logoText {
+    margin-left: 5px;
+  }
+  
+  img {
+    /* width: 120px; */
+    /* height: 120px; */
+    /* border:1px solid red; */
+  }
+  
+  #navLinks {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    /* border:1px solid red; */
+    padding:0;
+  
+    /* margin:0; */
+    gap:1rem;
+  }
+   li {
+    list-style: none;
+    /* white-space: nowrap; */
+  }
+  
+  .pill {
+    background-color: #769AFF;
+    padding: 10px 20px;
+    color:white;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  
+  .purple {
+  background-color: #D1D2F9;
+  
+  color: black;
+  }
+  
+  #hero {
+    height: 515px;
+    background-color:#D1D2F9;
+  }
