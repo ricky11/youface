@@ -1,6 +1,6 @@
-# Welcomne to youface!
+# Welcome to youface!
 
-## Its like yourtube meets facebook, but better!
+## Its like youtube meets facebook, but better!
 
 ## A demo project for PREFACE to show off simple HTML/CSS layouts with images, backgrounds, forms & lists.
 
