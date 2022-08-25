@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 
 }
 
@@ -10,8 +11,12 @@ body {
     padding: 0;
     font-family: 'Andika', sans-serif;
     line-height: 1;
+    scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
 
 h1 {
     font-size: 72px;
@@ -79,7 +84,7 @@ li {
     background-color: #769AFF;
     padding: 10px 20px;
     color: white;
-
+    cursor:pointer;
     font-weight: 400;
     border-radius: 50px;
 }
