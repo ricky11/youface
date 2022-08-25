@@ -1,37 +1,43 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 body {
     background: #ffffff;
-    /* height: 100vh; */
     margin: 0;
     padding: 0;
-    
+    font-family: 'Andika', sans-serif;
     line-height: 1;
-    /* max-width: 1400px; */
 }
 
 
 h1 {
-    font-size: 60px;
-    
-    
+    font-size: 72px;
+    font-weight: 700;
 }
 
 
 
 
 h2 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 0.8;
+    font-weight: 400;
 }
 
 h3 {
     font-size: 24px;
-    font-weight: lighter;
+    font-weight: 200;
     line-height: 0.5;
     width: 100%;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -58,6 +64,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-left: auto;
     padding: 0;
     gap: 1rem;
@@ -73,7 +80,7 @@ li {
     padding: 10px 20px;
     color: white;
 
-    font-weight: bold;
+    font-weight: 400;
     border-radius: 50px;
 }
 
@@ -84,15 +91,17 @@ li {
 }
 
 .hero {
-    height: 420px;
+    height: 520px;
     background-color: #D1D2F9;
     display: flex;
     flex-direction: row;
+    /* max-width: 800px; */
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    position:relative;
-    
+    gap: 150px;
+    /* width: 100%; */
+    position: relative;
+
 }
 
 #heroImage {
@@ -125,10 +134,10 @@ li {
     bottom: -20px;
     border-radius: 8px;
     font-size: 40px;
-    border:0;
+    border: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(-3deg);
-    cursor:pointer;
+    cursor: pointer;
 }
 
 button:active {
@@ -143,7 +152,7 @@ button:active {
 
 /* Not needed */
 #kidsImages {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -164,37 +173,37 @@ button:active {
 article {
     margin: 100px;
 }
-   
+
 
 #table {
 
     width: 100%;
     height: 400px;
     max-width: 600px;
-    margin : auto;
+    margin: auto;
     /* margin:auto; */
     /* text-align: center; */
     /* height: 00px; */
     /* border: 1px solid reds; */
-    display:flex;
+    display: flex;
     /* border: 1px solid red; */
 
 
 }
 
-.leftCol{
+.leftCol {
     width: 50%;
     height: 90%;
     align-self: flex-end;
-    border:1px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 8px 8px 0 0;
 }
 
-.rightCol{
+.rightCol {
     width: 50%;
     height: 100%;
     align-self: flex-start;
-    border:1px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 8px 8px 0 0;
     /* border:1px solid red; */
     /* background-color:blue; */
@@ -209,7 +218,7 @@ article {
     height: 60px;
     border-radius: 8px 8px 0 0;
     background-color: #D4CCE1;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     /* margin-top:auto; */
@@ -218,7 +227,7 @@ article {
 
 .with {
     background-color: #769AFF;
-    color:white;
+    color: white;
     height: 100px;
 }
 
@@ -231,56 +240,53 @@ article {
     /* padding: 20px 0; */
     padding: 30px;
     /* border:1px solid green; */
-        display:flex;
-        flex-direction: column;
-        text-align: left;
-        font-size:18px;
-        justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 200;
+    justify-content: space-between;
 }
 
 .rightCol ul {
     height: calc(100% - 100px);
-    /* outline: 4px solid red; */
-   
-    /* padding: 20px 0; */
-    /* margin: 20px 0; */
 }
 
-#teacher{
+#teacher {
     text-align: center;
 
 }
 
 #joinTheList {
     text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* flex-direction: column; */
-    /* align-items: center; */
     margin: 50px 0;
     width: 100%;
 }
 
 .textInput {
     padding: 14px 18px;
-    border:1px solid lightgrey;
+    border: 1px solid lightgrey;
     background-color: #F8F4F4;
+    width: 300px;
     border-radius: 5px;
 }
 
+::placeholder {
+    text-align: center;
+}
 
 form {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
 }
 
 .subscribe {
     width: 280px;
     border-radius: 8px;
-    border:0;
+    border: 0;
     padding: 20px 40px;
     font-size: 20px;
 }
